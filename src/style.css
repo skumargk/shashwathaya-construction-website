@@ -94,9 +94,11 @@ a {
 /* ================= HERO ================= */
 .hero {
   padding: 90px 0;
-  background: linear-gradient(135deg,
-      var(--teal),
-      #08333d);
+  background: linear-gradient(
+    135deg,
+    var(--teal),
+    #08333d
+  );
 }
 
 .hero-grid {
@@ -147,7 +149,7 @@ a {
 .hero-image img {
   width: 100%;
   border-radius: 18px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.35);
 }
 
 /* ================= RESPONSIVE ================= */
@@ -183,7 +185,6 @@ a {
     font-size: 34px;
   }
 }
-
 /* ================= ABOUT SECTION ================= */
 .about {
   padding: 90px 0;
@@ -223,13 +224,13 @@ a {
   padding: 36px 30px;
   border-radius: 18px;
   border-top: 4px solid var(--gold);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.12);
 }
 
 .about-card i {
@@ -263,13 +264,14 @@ a {
     margin-bottom: 50px;
   }
 }
-
 /* ================= SERVICES SECTION ================= */
 .services {
   padding: 100px 0;
-  background: linear-gradient(180deg,
-      #ffffff 0%,
-      #fdf5ef 100%);
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #fdf5ef 100%
+  );
 }
 
 .services-header {
@@ -301,13 +303,13 @@ a {
   padding: 36px 28px;
   border-radius: 18px;
   border-bottom: 4px solid var(--orange);
-  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 18px 38px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 28px 55px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 28px 55px rgba(0,0,0,0.14);
 }
 
 .service-card i {
@@ -347,7 +349,6 @@ a {
     grid-template-columns: 1fr;
   }
 }
-
 /* ================= PROCESS SECTION ================= */
 .process {
   padding: 100px 0;
@@ -379,7 +380,7 @@ a {
 }
 
 .process-step {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255,255,255,0.08);
   padding: 34px 26px;
   border-radius: 18px;
   position: relative;
@@ -388,7 +389,7 @@ a {
 
 .process-step:hover {
   transform: translateY(-10px);
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255,255,255,0.14);
 }
 
 .process-step span {
@@ -430,7 +431,6 @@ a {
     grid-template-columns: 1fr;
   }
 }
-
 /* ================= PROJECTS SECTION ================= */
 .projects {
   padding: 100px 0;
@@ -465,7 +465,7 @@ a {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
 
 .project-card img {
@@ -483,9 +483,11 @@ a {
 .project-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg,
-      rgba(15, 76, 92, 0.15),
-      rgba(15, 76, 92, 0.9));
+  background: linear-gradient(
+    180deg,
+    rgba(15,76,92,0.15),
+    rgba(15,76,92,0.9)
+  );
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -519,13 +521,14 @@ a {
     margin-bottom: 60px;
   }
 }
-
 /* ================= TESTIMONIALS SECTION ================= */
 .testimonials {
   padding: 100px 0;
-  background: linear-gradient(180deg,
-      #fdf5ef 0%,
-      #ffffff 100%);
+  background: linear-gradient(
+    180deg,
+    #fdf5ef 0%,
+    #ffffff 100%
+  );
 }
 
 .testimonials-header {
@@ -556,7 +559,7 @@ a {
   background: #ffffff;
   padding: 38px 32px;
   border-radius: 18px;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
   position: relative;
 }
 
@@ -597,12 +600,13 @@ a {
     margin-bottom: 60px;
   }
 }
-
 /* ================= CTA SECTION ================= */
 .cta {
-  background: linear-gradient(135deg,
-      var(--teal),
-      #08333d);
+  background: linear-gradient(
+    135deg,
+    var(--teal),
+    #08333d
+  );
   padding: 80px 0;
 }
 
@@ -692,7 +696,7 @@ a {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255,255,255,0.1);
   text-align: center;
   padding: 18px 0;
 }
@@ -714,13 +718,14 @@ a {
     text-align: center;
   }
 }
-
 /* ================= REAL ESTATE SERVICES ================= */
 .real-estate {
   padding: 100px 0;
-  background: linear-gradient(180deg,
-      #ffffff 0%,
-      #fdf5ef 100%);
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #fdf5ef 100%
+  );
 }
 
 .real-estate-header {
@@ -752,13 +757,13 @@ a {
   padding: 38px 30px;
   border-radius: 18px;
   border-top: 4px solid var(--gold);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .real-estate-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 28px 55px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 28px 55px rgba(0,0,0,0.14);
 }
 
 .real-estate-card i {
@@ -811,7 +816,6 @@ a {
   color: #666;
   line-height: 1.6;
 }
-
 /* ================= INTERIORS ================= */
 .interiors-section {
   padding: 110px 0;
@@ -860,13 +864,13 @@ a {
   padding: 42px 34px;
   background: #fff;
   border-radius: 20px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.08);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .interior-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 30px 65px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 30px 65px rgba(0,0,0,0.12);
 }
 
 .interior-card i {
@@ -897,5 +901,12 @@ a {
 @media (max-width: 576px) {
   .interiors-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* CSS styles for screens smaller than 768px */
+  .element-class {
+    width: 100%;
+    /* other mobile-specific styles */
   }
 }
